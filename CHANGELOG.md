@@ -3,3 +3,4 @@
 - [2025-12-08 10:30] feat: implement temporal era schema and system prompt templates
 - [2025-12-08 11:48] feat: add dynamic persona generator with historical figure profiles
 - [2025-12-08 18:15] feat: implement Wikipedia REST API fetcher for contextual ground truth
+- [2025-12-08 19:27] feat: add Streamlit multi-tab interface with custom CSS dark theme
