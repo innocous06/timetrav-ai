@@ -7,3 +7,4 @@
 - [2025-12-11 18:34] perf: cache embedding lookups using in-memory vector similarity index
 - [2025-12-12 11:49] docs: add comprehensive prompt engineering and architecture guide
 - [2025-12-12 12:04] test: add mock tests for historical event causality validator
+- [2025-12-12 15:58] feat: add LLM response streaming handler with async generator
