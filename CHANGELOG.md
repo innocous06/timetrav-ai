@@ -8,3 +8,4 @@
 - [2025-12-12 11:49] docs: add comprehensive prompt engineering and architecture guide
 - [2025-12-12 12:04] test: add mock tests for historical event causality validator
 - [2025-12-12 15:58] feat: add LLM response streaming handler with async generator
+- [2025-12-13 10:25] fix: handle token limit overflow with sliding window conversation memory
