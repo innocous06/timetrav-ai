@@ -9,3 +9,4 @@
 - [2025-12-12 12:04] test: add mock tests for historical event causality validator
 - [2025-12-12 15:58] feat: add LLM response streaming handler with async generator
 - [2025-12-13 10:25] fix: handle token limit overflow with sliding window conversation memory
+- [2025-12-13 10:30] feat: add interactive CLI mode with rich formatted dialogue panels
