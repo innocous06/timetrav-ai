@@ -10,3 +10,4 @@
 - [2025-12-12 15:58] feat: add LLM response streaming handler with async generator
 - [2025-12-13 10:25] fix: handle token limit overflow with sliding window conversation memory
 - [2025-12-13 10:30] feat: add interactive CLI mode with rich formatted dialogue panels
+- [2025-12-13 13:41] fix: correct year parsing regex for BCE and CE temporal formats
