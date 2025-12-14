@@ -19,3 +19,4 @@
 - [2025-12-14 13:52] test: add mock tests for historical event causality validator
 - [2025-12-14 14:10] docs: add comprehensive prompt engineering and architecture guide
 - [2025-12-14 15:40] test: add integration test suite for era transitions
+- [2025-12-14 18:51] test: add mock tests for historical event causality validator
