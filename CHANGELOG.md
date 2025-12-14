@@ -18,3 +18,4 @@
 - [2025-12-14 12:48] fix: handle token limit overflow with sliding window conversation memory
 - [2025-12-14 13:52] test: add mock tests for historical event causality validator
 - [2025-12-14 14:10] docs: add comprehensive prompt engineering and architecture guide
+- [2025-12-14 15:40] test: add integration test suite for era transitions
