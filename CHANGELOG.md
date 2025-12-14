@@ -13,3 +13,4 @@
 - [2025-12-13 13:41] fix: correct year parsing regex for BCE and CE temporal formats
 - [2025-12-13 14:40] test: add integration test suite for era transitions
 - [2025-12-14 09:05] test: add mock tests for historical event causality validator
+- [2025-12-14 11:21] test: add mock tests for historical event causality validator
