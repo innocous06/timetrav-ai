@@ -21,3 +21,4 @@
 - [2025-12-14 15:40] test: add integration test suite for era transitions
 - [2025-12-14 18:51] test: add mock tests for historical event causality validator
 - [2025-12-14 22:37] test: add integration test suite for era transitions
+- [2025-12-14 23:43] test: add mock tests for historical event causality validator
