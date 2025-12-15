@@ -6,3 +6,4 @@
 - [2025-12-08 19:27] feat: add Streamlit multi-tab interface with custom CSS dark theme
 - [2025-12-10 18:57] feat: implement sliding window conversation buffer to manage token limits
 - [2025-12-13 19:46] refactor: modularize prompt builder into utils/persona_generator.py
+- [2025-12-15 18:32] feat: add voice synthesis audio generation using gTTS pipeline
