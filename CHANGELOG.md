@@ -25,3 +25,4 @@
 - [2025-12-15 12:02] docs: add comprehensive prompt engineering and architecture guide
 - [2025-12-15 14:25] docs: add comprehensive prompt engineering and architecture guide
 - [2025-12-15 14:59] fix: handle token limit overflow with sliding window conversation memory
+- [2025-12-15 20:57] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
