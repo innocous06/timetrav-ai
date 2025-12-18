@@ -29,3 +29,4 @@
 - [2025-12-17 08:09] feat: add LLM response streaming handler with async generator
 - [2025-12-17 10:22] chore: configure pyproject.toml and pin dependencies
 - [2025-12-17 15:05] chore: configure pyproject.toml and pin dependencies
+- [2025-12-18 17:02] test: add mock tests for historical event causality validator
