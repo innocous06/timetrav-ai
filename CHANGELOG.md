@@ -31,3 +31,4 @@
 - [2025-12-17 15:05] chore: configure pyproject.toml and pin dependencies
 - [2025-12-18 17:02] test: add mock tests for historical event causality validator
 - [2025-12-18 17:41] chore: configure pyproject.toml and pin dependencies
+- [2025-12-19 10:18] fix: correct year parsing regex for BCE and CE temporal formats
