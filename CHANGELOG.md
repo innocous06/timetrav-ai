@@ -33,3 +33,4 @@
 - [2025-12-18 17:41] chore: configure pyproject.toml and pin dependencies
 - [2025-12-19 10:18] fix: correct year parsing regex for BCE and CE temporal formats
 - [2025-12-19 15:03] feat: add LLM response streaming handler with async generator
+- [2025-12-19 15:54] refactor: clean up prompt template interpolation logic
