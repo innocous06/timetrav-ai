@@ -37,3 +37,4 @@
 - [2025-12-19 17:57] fix: correct year parsing regex for BCE and CE temporal formats
 - [2025-12-19 20:01] test: add integration test suite for era transitions
 - [2025-12-20 10:50] fix: correct year parsing regex for BCE and CE temporal formats
+- [2025-12-20 11:36] feat: add LLM response streaming handler with async generator
