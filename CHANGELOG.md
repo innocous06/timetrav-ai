@@ -44,3 +44,4 @@
 - [2025-12-21 09:45] feat: add LLM response streaming handler with async generator
 - [2025-12-21 11:47] feat: implement temporal context prompt builder for historical eras
 - [2025-12-21 12:43] feat: implement butterfly-effect causality graph visualizer
+- [2025-12-21 13:39] feat: add timeline divergence scoring algorithm based on user decisions
