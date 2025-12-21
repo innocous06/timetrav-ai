@@ -49,3 +49,4 @@
 - [2025-12-21 16:45] fix: handle token limit overflow with sliding window conversation memory
 - [2025-12-21 16:54] fix: correct year parsing regex for BCE and CE temporal formats
 - [2025-12-21 18:24] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
+- [2025-12-21 21:04] fix: handle token limit overflow with sliding window conversation memory
