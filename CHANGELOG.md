@@ -42,3 +42,4 @@
 - [2025-12-20 14:00] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2025-12-20 18:28] fix: handle token limit overflow with sliding window conversation memory
 - [2025-12-21 09:45] feat: add LLM response streaming handler with async generator
+- [2025-12-21 11:47] feat: implement temporal context prompt builder for historical eras
