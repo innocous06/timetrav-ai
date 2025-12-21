@@ -47,3 +47,4 @@
 - [2025-12-21 13:39] feat: add timeline divergence scoring algorithm based on user decisions
 - [2025-12-21 15:40] fix: handle token limit overflow with sliding window conversation memory
 - [2025-12-21 16:45] fix: handle token limit overflow with sliding window conversation memory
+- [2025-12-21 16:54] fix: correct year parsing regex for BCE and CE temporal formats
