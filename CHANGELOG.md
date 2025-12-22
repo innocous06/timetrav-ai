@@ -51,3 +51,4 @@
 - [2025-12-21 18:24] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2025-12-21 21:04] fix: handle token limit overflow with sliding window conversation memory
 - [2025-12-22 12:03] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
+- [2025-12-22 13:29] docs: add comprehensive prompt engineering and architecture guide
