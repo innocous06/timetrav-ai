@@ -53,3 +53,4 @@
 - [2025-12-22 12:03] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2025-12-22 13:29] docs: add comprehensive prompt engineering and architecture guide
 - [2025-12-24 10:52] docs: add comprehensive prompt engineering and architecture guide
+- [2025-12-24 14:15] feat: implement temporal context prompt builder for historical eras
