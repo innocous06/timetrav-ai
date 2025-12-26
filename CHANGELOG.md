@@ -58,3 +58,4 @@
 - [2025-12-26 07:42] refactor: modularize persona system with JSON character schemas
 - [2025-12-26 09:47] feat: implement butterfly-effect causality graph visualizer
 - [2025-12-26 10:07] feat: add LLM response streaming handler with async generator
+- [2025-12-26 12:04] feat: add interactive CLI mode with rich formatted dialogue panels
