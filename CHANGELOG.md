@@ -61,3 +61,4 @@
 - [2025-12-26 12:04] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2025-12-26 13:29] refactor: clean up prompt template interpolation logic
 - [2025-12-26 14:25] perf: cache embedding lookups using in-memory vector similarity index
+- [2025-12-26 16:12] refactor: modularize persona system with JSON character schemas
