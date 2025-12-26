@@ -62,3 +62,4 @@
 - [2025-12-26 13:29] refactor: clean up prompt template interpolation logic
 - [2025-12-26 14:25] perf: cache embedding lookups using in-memory vector similarity index
 - [2025-12-26 16:12] refactor: modularize persona system with JSON character schemas
+- [2025-12-26 16:31] test: add mock tests for historical event causality validator
