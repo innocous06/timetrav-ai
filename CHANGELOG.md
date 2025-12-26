@@ -60,3 +60,4 @@
 - [2025-12-26 10:07] feat: add LLM response streaming handler with async generator
 - [2025-12-26 12:04] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2025-12-26 13:29] refactor: clean up prompt template interpolation logic
+- [2025-12-26 14:25] perf: cache embedding lookups using in-memory vector similarity index
