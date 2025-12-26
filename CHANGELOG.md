@@ -10,3 +10,4 @@
 - [2025-12-18 10:01] feat: implement artifact image analyzer for historical visual inputs
 - [2025-12-21 19:38] feat: add immersive soundscape background audio player for eras
 - [2025-12-23 14:55] fix: handle Wikipedia summary disambiguation and 404 error fallbacks
+- [2025-12-26 17:18] perf: cache historical figure embeddings for fast similarity matching
