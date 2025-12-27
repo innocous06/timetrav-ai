@@ -64,3 +64,4 @@
 - [2025-12-26 16:12] refactor: modularize persona system with JSON character schemas
 - [2025-12-26 16:31] test: add mock tests for historical event causality validator
 - [2025-12-27 15:37] test: add mock tests for historical event causality validator
+- [2025-12-27 15:48] fix: correct year parsing regex for BCE and CE temporal formats
