@@ -65,3 +65,4 @@
 - [2025-12-26 16:31] test: add mock tests for historical event causality validator
 - [2025-12-27 15:37] test: add mock tests for historical event causality validator
 - [2025-12-27 15:48] fix: correct year parsing regex for BCE and CE temporal formats
+- [2025-12-27 16:21] fix: handle API rate limits with exponential backoff retry
