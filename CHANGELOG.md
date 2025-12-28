@@ -67,3 +67,4 @@
 - [2025-12-27 15:48] fix: correct year parsing regex for BCE and CE temporal formats
 - [2025-12-27 16:21] fix: handle API rate limits with exponential backoff retry
 - [2025-12-28 11:31] fix: handle API rate limits with exponential backoff retry
+- [2025-12-28 12:00] chore: configure pyproject.toml and pin dependencies
