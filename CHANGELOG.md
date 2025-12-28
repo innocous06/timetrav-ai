@@ -68,3 +68,4 @@
 - [2025-12-27 16:21] fix: handle API rate limits with exponential backoff retry
 - [2025-12-28 11:31] fix: handle API rate limits with exponential backoff retry
 - [2025-12-28 12:00] chore: configure pyproject.toml and pin dependencies
+- [2025-12-28 19:47] feat: implement butterfly-effect causality graph visualizer
