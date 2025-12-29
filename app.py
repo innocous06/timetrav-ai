@@ -51,6 +51,10 @@ def init_session_state():
         st.session_state.api_key = config.GOOGLE_API_KEY
     if 'selected_model' not in st.session_state:
         st.session_state.selected_model = config.DEFAULT_MODEL
+    if 'needs_monument_clarification' not in st.session_state:
+        st.session_state.needs_monument_clarification = False
+    if 'partial_visual_info' not in st.session_state:
+        st.session_state.partial_visual_info = None
 
 
 def reset_session():
@@ -61,6 +65,8 @@ def reset_session():
     st.session_state.landmark_info = None
     st.session_state.landmark_images = []
     st.session_state.greeted = False
+    st.session_state.needs_monument_clarification = False
+    st.session_state.partial_visual_info = None
     st.rerun()
 
 
@@ -225,48 +231,100 @@ def main():
             st.warning("⚠️ Please enter your Google Gemini API key in the sidebar to begin.")
             st.info("Get your free API key from: https://aistudio.google.com/app/apikey")
         else:
-            # File uploader
-            uploaded_file = st.file_uploader(
-                "Upload a photo of a historical monument",
-                type=['jpg', 'jpeg', 'png'],
-                help="Upload a clear photo of any historical monument or landmark"
+            # Input method selector
+            input_method = st.radio(
+                "How would you like to discover a monument?",
+                ["📸 Upload an Image", "✍️ Enter Monument Name"],
+                horizontal=True
             )
             
-            if uploaded_file:
-                # Display uploaded image
-                image = Image.open(uploaded_file)
-                st.image(image, caption="Uploaded Monument", use_container_width=True)
+            if input_method == "📸 Upload an Image":
+                # File uploader
+                uploaded_file = st.file_uploader(
+                    "Upload a photo of a historical monument",
+                    type=['jpg', 'jpeg', 'png'],
+                    help="Upload a clear photo of any historical monument or landmark"
+                )
                 
-                # Analyze button
-                if st.button("🔍 Identify & Summon Historical Guide", use_container_width=True):
-                    with st.spinner("🔮 Analyzing monument and summoning historical guide..."):
+                if uploaded_file:
+                    # Display uploaded image
+                    image = Image.open(uploaded_file)
+                    st.image(image, caption="Uploaded Monument", use_container_width=True)
+                    
+                    # Analyze button
+                    if st.button("🔍 Identify & Summon Historical Guide", use_container_width=True):
+                        with st.spinner("🔮 Analyzing monument and summoning historical guide..."):
+                            try:
+                                # Analyze image
+                                analyzer = ImageAnalyzer(st.session_state.api_key, st.session_state.selected_model)
+                                landmark_info = analyzer.analyze_monument(uploaded_file)
+                                
+                                # Check confidence - if low, ask for clarification
+                                if landmark_info.get('confidence') == 'low' or landmark_info.get('landmark_name') in ['Historical Monument', 'Unknown Monument', 'Unknown']:
+                                    # Don't generate persona yet - set clarification flag
+                                    st.session_state.landmark_info = None
+                                    st.session_state.needs_monument_clarification = True
+                                    st.session_state.partial_visual_info = landmark_info.get('visual_elements', '')
+                                    st.rerun()
+                                else:
+                                    # Proceed normally with high confidence
+                                    st.session_state.landmark_info = landmark_info
+                                    
+                                    # Generate main persona
+                                    persona_gen = PersonaGenerator(st.session_state.api_key, st.session_state.selected_model)
+                                    main_persona = persona_gen.generate_persona(landmark_info)
+                                    st.session_state.current_persona = main_persona
+                                    
+                                    # Generate related personas
+                                    related = persona_gen.generate_related_personas(landmark_info, main_persona)
+                                    st.session_state.related_personas = related
+                                    
+                                    # Fetch Wikipedia images
+                                    wiki_fetcher = WikipediaFetcher()
+                                    images = wiki_fetcher.fetch_images(
+                                        landmark_info['landmark_name'],
+                                        config.WIKIPEDIA_IMAGE_COUNT
+                                    )
+                                    st.session_state.landmark_images = images
+                                    
+                                    # Reset chat and greeting flag
+                                    st.session_state.chat_history = []
+                                    st.session_state.greeted = False
+                                    
+                                    st.success("✨ Historical guide summoned successfully!")
+                                    st.rerun()
+                                
+                            except Exception as e:
+                                st.error(f"Error: {e}")
+            
+            elif input_method == "✍️ Enter Monument Name":
+                monument_name = st.text_input(
+                    "Enter monument name",
+                    placeholder="e.g., Taj Mahal, Colosseum, Eiffel Tower..."
+                )
+                
+                if monument_name and st.button("🔮 Summon Historical Guide", use_container_width=True):
+                    # Create landmark_info from text input (no image analysis needed)
+                    with st.spinner("🔍 Researching monument..."):
                         try:
-                            # Analyze image
-                            analyzer = ImageAnalyzer(st.session_state.api_key, st.session_state.selected_model)
-                            landmark_info = analyzer.analyze_monument(uploaded_file)
+                            generator = PersonaGenerator(st.session_state.api_key, st.session_state.selected_model)
+                            landmark_info = generator.research_monument(monument_name)
                             st.session_state.landmark_info = landmark_info
                             
-                            # Generate main persona
-                            persona_gen = PersonaGenerator(st.session_state.api_key, st.session_state.selected_model)
-                            main_persona = persona_gen.generate_persona(landmark_info)
-                            st.session_state.current_persona = main_persona
+                            # Continue with persona generation as usual
+                            with st.spinner("👻 Summoning historical figure..."):
+                                persona = generator.generate_persona(landmark_info)
+                                st.session_state.current_persona = persona
+                                related = generator.generate_related_personas(landmark_info, persona)
+                                st.session_state.related_personas = related
                             
-                            # Generate related personas
-                            related = persona_gen.generate_related_personas(landmark_info, main_persona)
-                            st.session_state.related_personas = related
+                            # Fetch images from Wikipedia
+                            with st.spinner("🖼️ Gathering monument images..."):
+                                fetcher = WikipediaFetcher()
+                                images = fetcher.fetch_images(landmark_info.get('landmark_name', monument_name))
+                                st.session_state.landmark_images = images
                             
-                            # Fetch Wikipedia images
-                            wiki_fetcher = WikipediaFetcher()
-                            images = wiki_fetcher.fetch_images(
-                                landmark_info['landmark_name'],
-                                config.WIKIPEDIA_IMAGE_COUNT
-                            )
-                            st.session_state.landmark_images = images
-                            
-                            # Reset chat and greeting flag
-                            st.session_state.chat_history = []
                             st.session_state.greeted = False
-                            
                             st.success("✨ Historical guide summoned successfully!")
                             st.rerun()
                             
@@ -304,7 +362,54 @@ def main():
     with col_right:
         st.markdown("### 💬 Conversation with History")
         
-        if not st.session_state.current_persona:
+        # Check if we need monument clarification
+        if st.session_state.get('needs_monument_clarification', False):
+            st.markdown("""
+            <div class="persona-card">
+                <div class="persona-avatar">📜</div>
+                <div class="persona-name">Ancient Historian</div>
+                <div class="persona-title">Keeper of History</div>
+                <div class="persona-era">⏳ Timeless</div>
+                <div class="persona-connection">"I could not clearly identify this monument from the image. Please help me understand which historical place you wish to explore."</div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            # Show what was detected (if anything)
+            if st.session_state.get('partial_visual_info'):
+                st.info(f"🔍 I can see: {st.session_state.partial_visual_info}")
+            
+            # Ask user to clarify
+            clarification_input = st.text_input(
+                "Which monument is this?",
+                placeholder="Enter the monument name..."
+            )
+            
+            if clarification_input and st.button("✨ Continue Journey", use_container_width=True):
+                # Use the clarified name to research and continue
+                generator = PersonaGenerator(st.session_state.api_key, st.session_state.selected_model)
+                
+                with st.spinner("🔍 Researching monument..."):
+                    landmark_info = generator.research_monument(clarification_input)
+                    st.session_state.landmark_info = landmark_info
+                
+                with st.spinner("👻 Summoning historical figure..."):
+                    persona = generator.generate_persona(landmark_info)
+                    st.session_state.current_persona = persona
+                    related = generator.generate_related_personas(landmark_info, persona)
+                    st.session_state.related_personas = related
+                
+                with st.spinner("🖼️ Gathering monument images..."):
+                    fetcher = WikipediaFetcher()
+                    images = fetcher.fetch_images(landmark_info.get('landmark_name', clarification_input))
+                    st.session_state.landmark_images = images
+                
+                # Clear clarification flag
+                st.session_state.needs_monument_clarification = False
+                st.session_state.partial_visual_info = None
+                st.session_state.greeted = False
+                st.rerun()
+        
+        elif not st.session_state.current_persona:
             # Welcome section
             st.markdown("""
             <div class="welcome-section">
