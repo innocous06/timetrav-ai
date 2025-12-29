@@ -321,9 +321,13 @@ def main():
                             # Fetch images from Wikipedia
                             with st.spinner("🖼️ Gathering monument images..."):
                                 fetcher = WikipediaFetcher()
-                                images = fetcher.fetch_images(landmark_info.get('landmark_name', monument_name))
+                                images = fetcher.fetch_images(
+                                    landmark_info.get('landmark_name', monument_name),
+                                    config.WIKIPEDIA_IMAGE_COUNT
+                                )
                                 st.session_state.landmark_images = images
                             
+                            st.session_state.chat_history = []
                             st.session_state.greeted = False
                             st.success("✨ Historical guide summoned successfully!")
                             st.rerun()
@@ -400,12 +404,16 @@ def main():
                 
                 with st.spinner("🖼️ Gathering monument images..."):
                     fetcher = WikipediaFetcher()
-                    images = fetcher.fetch_images(landmark_info.get('landmark_name', clarification_input))
+                    images = fetcher.fetch_images(
+                        landmark_info.get('landmark_name', clarification_input),
+                        config.WIKIPEDIA_IMAGE_COUNT
+                    )
                     st.session_state.landmark_images = images
                 
                 # Clear clarification flag
                 st.session_state.needs_monument_clarification = False
                 st.session_state.partial_visual_info = None
+                st.session_state.chat_history = []
                 st.session_state.greeted = False
                 st.rerun()
         
