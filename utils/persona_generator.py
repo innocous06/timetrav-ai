@@ -2,6 +2,7 @@
 Historical persona generator using Google Gemini AI
 """
 import json
+import re
 from google import genai
 from google.genai import types
 import config
@@ -14,6 +15,74 @@ class PersonaGenerator:
         self.client = genai.Client(api_key=api_key)
         self.model = model or config.DEFAULT_MODEL
         
+    def research_monument(self, monument_name: str) -> dict:
+        """
+        Research a monument by name and return landmark info.
+        
+        Args:
+            monument_name: Name of the monument to research
+            
+        Returns:
+            dict: Monument information in same format as image analyzer
+        """
+        try:
+            prompt = f"""Research this monument: "{monument_name}"
+            
+Provide information in this JSON format ONLY:
+{{
+    "landmark_name": "Official/full name of the monument",
+    "location": "City, Country",
+    "architectural_style": "Style of architecture",
+    "era": "Time period when it was built",
+    "description": "Brief 2-3 sentence description",
+    "visual_elements": "Key visual features",
+    "confidence": "high",
+    "historical_significance": "Why this monument is historically important"
+}}
+"""
+            
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt
+            )
+            response_text = response.text.strip()
+            
+            # Remove markdown code blocks if present
+            if response_text.startswith("```"):
+                lines = response_text.split("\n")
+                response_text = "\n".join(lines[1:-1])
+            if response_text.startswith("json"):
+                response_text = response_text[4:].strip()
+            
+            # Extract JSON from response
+            json_match = re.search(r'\{[\s\S]*\}', response_text)
+            if json_match:
+                monument_info = json.loads(json_match.group())
+                
+                # Validate required fields
+                required_fields = ["landmark_name", "location", "era", "description"]
+                for field in required_fields:
+                    if field not in monument_info:
+                        monument_info[field] = "Unknown"
+                
+                return monument_info
+            
+            raise ValueError("No JSON found in response")
+            
+        except Exception as e:
+            print(f"[ERROR] Monument research failed: {e}")
+            # Return fallback with user's input
+            return {
+                "landmark_name": monument_name,
+                "location": "Unknown Location",
+                "architectural_style": "Historical",
+                "era": "Historical Period",
+                "description": f"A historical monument known as {monument_name}.",
+                "visual_elements": "Notable architectural features",
+                "confidence": "low",
+                "historical_significance": "A place of historical and cultural importance."
+            }
+    
     def generate_persona(self, landmark_info: dict) -> dict:
         """
         Generate a historical persona related to the landmark
