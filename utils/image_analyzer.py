@@ -10,10 +10,11 @@ import config
 
 
 class ImageAnalyzer:
-    def __init__(self, api_key: str):
+    def __init__(self, api_key: str, model: str = None):
         """Initialize the image analyzer with Gemini API key"""
         self.api_key = api_key
         self.client = genai.Client(api_key=api_key)
+        self.model = model or config.DEFAULT_MODEL
         
     def analyze_monument(self, image_data) -> dict:
         """
@@ -66,7 +67,7 @@ class ImageAnalyzer:
             
             # Call Gemini API with new SDK
             response = self.client.models.generate_content(
-                model=config.GEMINI_MODEL,
+                model=self.model,
                 contents=[
                     types.Content(
                         role="user",

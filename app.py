@@ -49,6 +49,8 @@ def init_session_state():
         st.session_state.api_configured = False
     if 'api_key' not in st.session_state:
         st.session_state.api_key = config.GOOGLE_API_KEY
+    if 'selected_model' not in st.session_state:
+        st.session_state.selected_model = config.DEFAULT_MODEL
 
 
 def reset_session():
@@ -83,7 +85,7 @@ def process_user_message(user_message: str):
     
     # Generate response
     try:
-        persona_gen = PersonaGenerator(st.session_state.api_key)
+        persona_gen = PersonaGenerator(st.session_state.api_key, st.session_state.selected_model)
         response = persona_gen.generate_response(
             st.session_state.current_persona,
             st.session_state.landmark_info,
@@ -134,6 +136,31 @@ def main():
         else:
             st.warning("⚠️ API Key Required")
             st.session_state.api_configured = False
+        
+        st.markdown("---")
+        
+        # Model Selection
+        st.markdown("#### 🤖 AI Model")
+        
+        model_options = list(config.AVAILABLE_MODELS.keys())
+        model_labels = list(config.AVAILABLE_MODELS.values())
+        
+        # Get current index
+        current_model = st.session_state.get('selected_model', config.DEFAULT_MODEL)
+        current_index = model_options.index(current_model) if current_model in model_options else 0
+        
+        selected_label = st.selectbox(
+            "Select Gemini Model",
+            options=model_labels,
+            index=current_index,
+            help="Switch models if you hit rate limits"
+        )
+        
+        # Update session state with the model key
+        selected_model = model_options[model_labels.index(selected_label)]
+        st.session_state.selected_model = selected_model
+        
+        st.caption(f"💡 Using: `{selected_model}`")
         
         st.markdown("---")
         
@@ -215,12 +242,12 @@ def main():
                     with st.spinner("🔮 Analyzing monument and summoning historical guide..."):
                         try:
                             # Analyze image
-                            analyzer = ImageAnalyzer(st.session_state.api_key)
+                            analyzer = ImageAnalyzer(st.session_state.api_key, st.session_state.selected_model)
                             landmark_info = analyzer.analyze_monument(uploaded_file)
                             st.session_state.landmark_info = landmark_info
                             
                             # Generate main persona
-                            persona_gen = PersonaGenerator(st.session_state.api_key)
+                            persona_gen = PersonaGenerator(st.session_state.api_key, st.session_state.selected_model)
                             main_persona = persona_gen.generate_persona(landmark_info)
                             st.session_state.current_persona = main_persona
                             
@@ -317,7 +344,7 @@ def main():
             if not st.session_state.greeted:
                 with st.spinner("✍️ Preparing greeting..."):
                     try:
-                        persona_gen = PersonaGenerator(st.session_state.api_key)
+                        persona_gen = PersonaGenerator(st.session_state.api_key, st.session_state.selected_model)
                         greeting = persona_gen.generate_greeting(
                             st.session_state.current_persona,
                             st.session_state.landmark_info
