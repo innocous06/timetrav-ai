@@ -74,3 +74,4 @@
 - [2025-12-29 11:27] fix: correct year parsing regex for BCE and CE temporal formats
 - [2025-12-29 12:56] test: add mock tests for historical event causality validator
 - [2025-12-29 14:31] docs: add comprehensive prompt engineering and architecture guide
+- [2025-12-29 14:58] chore: configure pyproject.toml and pin dependencies
