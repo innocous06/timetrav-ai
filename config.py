@@ -10,7 +10,7 @@ DEFAULT_VOICE_LANG = "en"
 VOICE_SLOW = False
 MAX_IMAGE_SIZE = (1024, 1024)
 WIKIPEDIA_IMAGE_COUNT = 5
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 FALLBACK_PERSONA = {
     "name": "Ancient Historian",
