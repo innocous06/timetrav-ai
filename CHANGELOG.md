@@ -7,3 +7,4 @@
 - [2025-12-21 20:05] fix: correct year parsing regex for BCE and CE temporal formats
 - [2025-12-25 20:36] fix: correct year parsing regex for BCE and CE temporal formats
 - [2025-12-29 11:07] feat: add timeline divergence scoring algorithm based on user decisions
+- [2025-12-29 15:33] fix: correct year parsing regex for BCE and CE temporal formats
