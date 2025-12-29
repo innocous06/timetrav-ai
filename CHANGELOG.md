@@ -73,3 +73,4 @@
 - [2025-12-29 10:37] feat: add LLM response streaming handler with async generator
 - [2025-12-29 11:27] fix: correct year parsing regex for BCE and CE temporal formats
 - [2025-12-29 12:56] test: add mock tests for historical event causality validator
+- [2025-12-29 14:31] docs: add comprehensive prompt engineering and architecture guide
