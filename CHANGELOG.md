@@ -72,3 +72,4 @@
 - [2025-12-29 09:00] perf: cache embedding lookups using in-memory vector similarity index
 - [2025-12-29 10:37] feat: add LLM response streaming handler with async generator
 - [2025-12-29 11:27] fix: correct year parsing regex for BCE and CE temporal formats
+- [2025-12-29 12:56] test: add mock tests for historical event causality validator
