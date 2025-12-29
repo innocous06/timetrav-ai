@@ -10,7 +10,16 @@ DEFAULT_VOICE_LANG = "en"
 VOICE_SLOW = False
 MAX_IMAGE_SIZE = (1024, 1024)
 WIKIPEDIA_IMAGE_COUNT = 5
-GEMINI_MODEL = "gemini-2.5-flash"
+
+# Available Gemini models (all support multimodal/image input)
+AVAILABLE_MODELS = {
+    "gemini-2.5-flash": "Gemini 2.5 Flash (Recommended)",
+    "gemini-2.5-flash-lite": "Gemini 2.5 Flash Lite (Fastest)",
+    "gemini-3-flash": "Gemini 3 Flash (Latest)"
+}
+DEFAULT_MODEL = "gemini-2.5-flash"
+# Backward compatibility
+GEMINI_MODEL = DEFAULT_MODEL
 
 FALLBACK_PERSONA = {
     "name": "Ancient Historian",

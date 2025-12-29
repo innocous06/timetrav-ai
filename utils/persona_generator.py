@@ -8,10 +8,11 @@ import config
 
 
 class PersonaGenerator:
-    def __init__(self, api_key: str):
+    def __init__(self, api_key: str, model: str = None):
         """Initialize the persona generator with Gemini API key"""
         self.api_key = api_key
         self.client = genai.Client(api_key=api_key)
+        self.model = model or config.DEFAULT_MODEL
         
     def generate_persona(self, landmark_info: dict) -> dict:
         """
@@ -50,7 +51,7 @@ Return ONLY a valid JSON object (no markdown, no code blocks) with this structur
 Be creative but historically plausible. Choose someone who would have fascinating stories."""
 
             response = self.client.models.generate_content(
-                model=config.GEMINI_MODEL,
+                model=self.model,
                 contents=prompt
             )
             
@@ -112,7 +113,7 @@ Return ONLY a valid JSON array (no markdown, no code blocks) with 3 objects, eac
 }}"""
 
             response = self.client.models.generate_content(
-                model=config.GEMINI_MODEL,
+                model=self.model,
                 contents=prompt
             )
             
@@ -180,7 +181,7 @@ Be welcoming, hint at your personal connection, and invite them to ask you quest
 Stay in character. DO NOT use markdown formatting."""
 
             response = self.client.models.generate_content(
-                model=config.GEMINI_MODEL,
+                model=self.model,
                 contents=prompt
             )
             
@@ -231,7 +232,7 @@ Keep responses concise (2-4 sentences) unless the question requires detail.
 DO NOT use markdown formatting - just plain text."""
 
             response = self.client.models.generate_content(
-                model=config.GEMINI_MODEL,
+                model=self.model,
                 contents=prompt
             )
             
