@@ -282,7 +282,7 @@ def main():
                                     # Fetch Wikipedia images
                                     wiki_fetcher = WikipediaFetcher()
                                     images = wiki_fetcher.fetch_images(
-                                        landmark_info['landmark_name'],
+                                        landmark_info.get('landmark_name', 'Unknown'),
                                         config.WIKIPEDIA_IMAGE_COUNT
                                     )
                                     st.session_state.landmark_images = images
