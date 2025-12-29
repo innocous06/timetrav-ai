@@ -75,3 +75,4 @@
 - [2025-12-29 12:56] test: add mock tests for historical event causality validator
 - [2025-12-29 14:31] docs: add comprehensive prompt engineering and architecture guide
 - [2025-12-29 14:58] chore: configure pyproject.toml and pin dependencies
+- [2025-12-29 20:09] fix: handle token limit overflow with sliding window conversation memory
