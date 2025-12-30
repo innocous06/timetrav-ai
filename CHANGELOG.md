@@ -80,3 +80,4 @@
 - [2025-12-30 11:41] fix: correct year parsing regex for BCE and CE temporal formats
 - [2025-12-30 12:22] fix: handle API rate limits with exponential backoff retry
 - [2025-12-30 13:44] test: add mock tests for historical event causality validator
+- [2025-12-30 13:54] feat: implement temporal context prompt builder for historical eras
