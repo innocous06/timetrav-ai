@@ -77,3 +77,4 @@
 - [2025-12-29 14:58] chore: configure pyproject.toml and pin dependencies
 - [2025-12-29 20:09] fix: handle token limit overflow with sliding window conversation memory
 - [2025-12-30 09:51] fix: correct year parsing regex for BCE and CE temporal formats
+- [2025-12-30 11:41] fix: correct year parsing regex for BCE and CE temporal formats
