@@ -84,3 +84,4 @@
 - [2025-12-30 20:57] test: add integration test suite for era transitions
 - [2025-12-31 11:05] perf: cache embedding lookups using in-memory vector similarity index
 - [2025-12-31 13:56] refactor: modularize persona system with JSON character schemas
+- [2025-12-31 14:41] refactor: modularize persona system with JSON character schemas
