@@ -88,3 +88,4 @@
 - [2025-12-31 14:50] fix: handle API rate limits with exponential backoff retry
 - [2025-12-31 16:38] test: add integration test suite for era transitions
 - [2025-12-31 18:12] fix: handle token limit overflow with sliding window conversation memory
+- [2025-12-31 19:48] refactor: modularize persona system with JSON character schemas
