@@ -12,3 +12,4 @@
 - [2025-12-23 14:55] fix: handle Wikipedia summary disambiguation and 404 error fallbacks
 - [2025-12-26 17:18] perf: cache historical figure embeddings for fast similarity matching
 - [2025-12-29 14:44] feat: add timeline divergence scoring algorithm for user dialogue choices
+- [2025-12-31 10:54] test: add unit tests for temporal date parser and era validation
