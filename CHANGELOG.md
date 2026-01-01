@@ -98,3 +98,4 @@
 - [2026-01-01 14:15] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-01-01 15:11] refactor: clean up prompt template interpolation logic
 - [2026-01-01 15:42] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
+- [2026-01-01 15:50] feat: implement temporal context prompt builder for historical eras
