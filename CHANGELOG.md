@@ -92,3 +92,4 @@
 - [2025-12-31 19:53] feat: add LLM response streaming handler with async generator
 - [2026-01-01 10:49] refactor: clean up prompt template interpolation logic
 - [2026-01-01 12:19] feat: implement butterfly-effect causality graph visualizer
+- [2026-01-01 12:32] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
