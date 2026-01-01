@@ -103,3 +103,4 @@
 - [2026-01-01 16:23] feat: add LLM response streaming handler with async generator
 - [2026-01-01 17:26] feat: add timeline divergence scoring algorithm based on user decisions
 - [2026-01-01 17:51] feat: add timeline divergence scoring algorithm based on user decisions
+- [2026-01-01 19:48] perf: cache embedding lookups using in-memory vector similarity index
