@@ -90,3 +90,4 @@
 - [2025-12-31 18:12] fix: handle token limit overflow with sliding window conversation memory
 - [2025-12-31 19:48] refactor: modularize persona system with JSON character schemas
 - [2025-12-31 19:53] feat: add LLM response streaming handler with async generator
+- [2026-01-01 10:49] refactor: clean up prompt template interpolation logic
