@@ -100,3 +100,4 @@
 - [2026-01-01 15:42] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-01-01 15:50] feat: implement temporal context prompt builder for historical eras
 - [2026-01-01 16:00] test: add integration test suite for era transitions
+- [2026-01-01 16:23] feat: add LLM response streaming handler with async generator
