@@ -106,3 +106,4 @@
 - [2026-01-01 19:48] perf: cache embedding lookups using in-memory vector similarity index
 - [2026-01-01 20:02] fix: handle API rate limits with exponential backoff retry
 - [2026-01-01 20:52] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
+- [2026-01-01 21:32] test: add integration test suite for era transitions
