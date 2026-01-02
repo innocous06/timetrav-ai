@@ -111,3 +111,4 @@
 - [2026-01-02 09:45] feat: implement butterfly-effect causality graph visualizer
 - [2026-01-02 10:32] fix: handle token limit overflow with sliding window conversation memory
 - [2026-01-02 12:01] fix: handle token limit overflow with sliding window conversation memory
+- [2026-01-02 17:20] refactor: clean up prompt template interpolation logic
