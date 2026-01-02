@@ -109,3 +109,4 @@
 - [2026-01-01 21:32] test: add integration test suite for era transitions
 - [2026-01-01 23:25] chore: configure pyproject.toml and pin dependencies
 - [2026-01-02 09:45] feat: implement butterfly-effect causality graph visualizer
+- [2026-01-02 10:32] fix: handle token limit overflow with sliding window conversation memory
