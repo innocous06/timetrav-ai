@@ -114,3 +114,4 @@
 - [2026-01-02 17:20] refactor: clean up prompt template interpolation logic
 - [2026-01-02 18:52] feat: implement butterfly-effect causality graph visualizer
 - [2026-01-03 10:15] fix: correct year parsing regex for BCE and CE temporal formats
+- [2026-01-03 11:15] chore: configure pyproject.toml and pin dependencies
