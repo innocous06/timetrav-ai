@@ -117,3 +117,4 @@
 - [2026-01-03 11:15] chore: configure pyproject.toml and pin dependencies
 - [2026-01-03 15:04] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-03 18:03] feat: implement butterfly-effect causality graph visualizer
+- [2026-01-03 18:39] refactor: modularize persona system with JSON character schemas
