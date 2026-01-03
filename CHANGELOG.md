@@ -116,3 +116,4 @@
 - [2026-01-03 10:15] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-01-03 11:15] chore: configure pyproject.toml and pin dependencies
 - [2026-01-03 15:04] feat: add interactive CLI mode with rich formatted dialogue panels
+- [2026-01-03 18:03] feat: implement butterfly-effect causality graph visualizer
