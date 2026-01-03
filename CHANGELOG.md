@@ -119,3 +119,4 @@
 - [2026-01-03 18:03] feat: implement butterfly-effect causality graph visualizer
 - [2026-01-03 18:39] refactor: modularize persona system with JSON character schemas
 - [2026-01-03 20:51] fix: handle API rate limits with exponential backoff retry
+- [2026-01-03 21:34] feat: add interactive CLI mode with rich formatted dialogue panels
