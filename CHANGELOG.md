@@ -121,3 +121,4 @@
 - [2026-01-03 20:51] fix: handle API rate limits with exponential backoff retry
 - [2026-01-03 21:34] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-04 10:29] feat: add timeline divergence scoring algorithm based on user decisions
+- [2026-01-04 11:51] perf: cache embedding lookups using in-memory vector similarity index
