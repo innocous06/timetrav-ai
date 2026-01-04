@@ -120,3 +120,4 @@
 - [2026-01-03 18:39] refactor: modularize persona system with JSON character schemas
 - [2026-01-03 20:51] fix: handle API rate limits with exponential backoff retry
 - [2026-01-03 21:34] feat: add interactive CLI mode with rich formatted dialogue panels
+- [2026-01-04 10:29] feat: add timeline divergence scoring algorithm based on user decisions
