@@ -122,3 +122,4 @@
 - [2026-01-03 21:34] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-04 10:29] feat: add timeline divergence scoring algorithm based on user decisions
 - [2026-01-04 11:51] perf: cache embedding lookups using in-memory vector similarity index
+- [2026-01-04 21:49] test: add integration test suite for era transitions
