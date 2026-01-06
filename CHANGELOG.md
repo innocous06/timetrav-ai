@@ -14,3 +14,4 @@
 - [2025-12-29 14:44] feat: add timeline divergence scoring algorithm for user dialogue choices
 - [2025-12-31 10:54] test: add unit tests for temporal date parser and era validation
 - [2026-01-03 20:24] chore: update requirements.txt with pinned Streamlit and LangChain versions
+- [2026-01-06 11:03] docs: add prompt engineering documentation and architecture diagram
