@@ -125,3 +125,4 @@
 - [2026-01-04 21:49] test: add integration test suite for era transitions
 - [2026-01-06 07:13] fix: handle token limit overflow with sliding window conversation memory
 - [2026-01-06 10:48] fix: correct year parsing regex for BCE and CE temporal formats
+- [2026-01-06 10:50] perf: cache embedding lookups using in-memory vector similarity index
