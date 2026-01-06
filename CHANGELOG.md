@@ -126,3 +126,4 @@
 - [2026-01-06 07:13] fix: handle token limit overflow with sliding window conversation memory
 - [2026-01-06 10:48] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-01-06 10:50] perf: cache embedding lookups using in-memory vector similarity index
+- [2026-01-06 16:18] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
