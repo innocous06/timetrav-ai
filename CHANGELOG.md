@@ -12,3 +12,4 @@
 - [2026-01-03 19:44] docs: add comprehensive prompt engineering and architecture guide
 - [2026-01-04 15:32] feat: implement butterfly-effect causality graph visualizer
 - [2026-01-08 10:06] fix: handle token limit overflow with sliding window conversation memory
+- [2026-01-08 13:39] fix: handle token limit overflow with sliding window conversation memory
