@@ -11,3 +11,4 @@
 - [2026-01-01 15:36] test: add mock tests for historical event causality validator
 - [2026-01-03 19:44] docs: add comprehensive prompt engineering and architecture guide
 - [2026-01-04 15:32] feat: implement butterfly-effect causality graph visualizer
+- [2026-01-08 10:06] fix: handle token limit overflow with sliding window conversation memory
