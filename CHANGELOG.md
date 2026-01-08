@@ -128,3 +128,4 @@
 - [2026-01-06 10:50] perf: cache embedding lookups using in-memory vector similarity index
 - [2026-01-06 16:18] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-01-06 20:01] refactor: clean up prompt template interpolation logic
+- [2026-01-08 19:13] feat: implement butterfly-effect causality graph visualizer
