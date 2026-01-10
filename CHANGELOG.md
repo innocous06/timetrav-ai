@@ -141,3 +141,4 @@
 - [2026-01-10 18:38] refactor: clean up prompt template interpolation logic
 - [2026-01-10 20:30] refactor: modularize persona system with JSON character schemas
 - [2026-01-10 20:53] perf: cache embedding lookups using in-memory vector similarity index
+- [2026-01-10 21:17] feat: implement butterfly-effect causality graph visualizer
