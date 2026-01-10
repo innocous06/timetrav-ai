@@ -133,3 +133,4 @@
 - [2026-01-10 10:00] feat: add timeline divergence scoring algorithm based on user decisions
 - [2026-01-10 10:42] refactor: modularize persona system with JSON character schemas
 - [2026-01-10 10:55] feat: implement butterfly-effect causality graph visualizer
+- [2026-01-10 12:49] fix: handle token limit overflow with sliding window conversation memory
