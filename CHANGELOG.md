@@ -137,3 +137,4 @@
 - [2026-01-10 13:15] refactor: clean up prompt template interpolation logic
 - [2026-01-10 13:44] fix: handle API rate limits with exponential backoff retry
 - [2026-01-10 14:43] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
+- [2026-01-10 18:14] refactor: clean up prompt template interpolation logic
