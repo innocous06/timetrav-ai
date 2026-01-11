@@ -16,3 +16,4 @@
 - [2026-01-03 20:24] chore: update requirements.txt with pinned Streamlit and LangChain versions
 - [2026-01-06 11:03] docs: add prompt engineering documentation and architecture diagram
 - [2026-01-08 12:34] fix: sanitize user input to prevent prompt injection in persona prompts
+- [2026-01-11 20:45] feat: add export conversation transcript to Markdown and PDF
