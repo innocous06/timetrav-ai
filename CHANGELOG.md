@@ -145,3 +145,4 @@
 - [2026-01-10 21:35] chore: configure pyproject.toml and pin dependencies
 - [2026-01-11 09:02] feat: implement temporal context prompt builder for historical eras
 - [2026-01-11 10:39] fix: correct year parsing regex for BCE and CE temporal formats
+- [2026-01-11 17:35] test: add integration test suite for era transitions
