@@ -146,3 +146,4 @@
 - [2026-01-11 09:02] feat: implement temporal context prompt builder for historical eras
 - [2026-01-11 10:39] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-01-11 17:35] test: add integration test suite for era transitions
+- [2026-01-12 09:50] refactor: modularize persona system with JSON character schemas
