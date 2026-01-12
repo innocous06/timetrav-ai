@@ -156,3 +156,4 @@
 - [2026-01-12 13:46] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-01-12 15:18] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-01-12 17:09] feat: add LLM response streaming handler with async generator
+- [2026-01-12 17:10] fix: correct year parsing regex for BCE and CE temporal formats
