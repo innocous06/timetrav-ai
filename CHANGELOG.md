@@ -148,3 +148,4 @@
 - [2026-01-11 17:35] test: add integration test suite for era transitions
 - [2026-01-12 09:50] refactor: modularize persona system with JSON character schemas
 - [2026-01-12 10:44] perf: cache embedding lookups using in-memory vector similarity index
+- [2026-01-12 10:48] fix: handle API rate limits with exponential backoff retry
