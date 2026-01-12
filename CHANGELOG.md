@@ -153,3 +153,4 @@
 - [2026-01-12 12:27] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-01-12 12:30] feat: implement butterfly-effect causality graph visualizer
 - [2026-01-12 13:19] refactor: modularize persona system with JSON character schemas
+- [2026-01-12 13:46] fix: correct year parsing regex for BCE and CE temporal formats
