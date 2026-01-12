@@ -151,3 +151,4 @@
 - [2026-01-12 10:48] fix: handle API rate limits with exponential backoff retry
 - [2026-01-12 11:28] perf: cache embedding lookups using in-memory vector similarity index
 - [2026-01-12 12:27] fix: correct year parsing regex for BCE and CE temporal formats
+- [2026-01-12 12:30] feat: implement butterfly-effect causality graph visualizer
