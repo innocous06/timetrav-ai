@@ -159,3 +159,4 @@
 - [2026-01-12 17:10] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-01-12 18:15] test: add integration test suite for era transitions
 - [2026-01-12 19:28] feat: add interactive CLI mode with rich formatted dialogue panels
+- [2026-01-12 19:55] refactor: modularize persona system with JSON character schemas
