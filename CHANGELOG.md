@@ -161,3 +161,4 @@
 - [2026-01-12 19:28] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-12 19:55] refactor: modularize persona system with JSON character schemas
 - [2026-01-13 09:51] fix: handle token limit overflow with sliding window conversation memory
+- [2026-01-13 11:42] feat: implement temporal context prompt builder for historical eras
