@@ -169,3 +169,4 @@
 - [2026-01-13 15:34] fix: handle API rate limits with exponential backoff retry
 - [2026-01-13 16:13] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-13 17:02] fix: handle API rate limits with exponential backoff retry
+- [2026-01-13 17:48] feat: add LLM response streaming handler with async generator
