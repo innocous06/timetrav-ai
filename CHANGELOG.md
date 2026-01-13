@@ -160,3 +160,4 @@
 - [2026-01-12 18:15] test: add integration test suite for era transitions
 - [2026-01-12 19:28] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-12 19:55] refactor: modularize persona system with JSON character schemas
+- [2026-01-13 09:51] fix: handle token limit overflow with sliding window conversation memory
