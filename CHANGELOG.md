@@ -166,3 +166,4 @@
 - [2026-01-13 13:05] feat: implement temporal context prompt builder for historical eras
 - [2026-01-13 13:58] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-01-13 14:08] feat: add interactive CLI mode with rich formatted dialogue panels
+- [2026-01-13 15:34] fix: handle API rate limits with exponential backoff retry
