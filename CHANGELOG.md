@@ -176,3 +176,4 @@
 - [2026-01-13 21:03] docs: add comprehensive prompt engineering and architecture guide
 - [2026-01-13 21:07] feat: add LLM response streaming handler with async generator
 - [2026-01-13 22:50] docs: add comprehensive prompt engineering and architecture guide
+- [2026-01-14 12:21] perf: cache embedding lookups using in-memory vector similarity index
