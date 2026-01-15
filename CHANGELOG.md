@@ -184,3 +184,4 @@
 - [2026-01-15 16:51] chore: configure pyproject.toml and pin dependencies
 - [2026-01-15 18:21] fix: handle token limit overflow with sliding window conversation memory
 - [2026-01-15 19:04] fix: correct year parsing regex for BCE and CE temporal formats
+- [2026-01-15 19:06] test: add integration test suite for era transitions
