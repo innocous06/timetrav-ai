@@ -180,3 +180,4 @@
 - [2026-01-14 21:45] feat: implement butterfly-effect causality graph visualizer
 - [2026-01-15 10:30] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-15 14:09] feat: add interactive CLI mode with rich formatted dialogue panels
+- [2026-01-15 14:30] fix: handle API rate limits with exponential backoff retry
