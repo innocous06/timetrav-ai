@@ -182,3 +182,4 @@
 - [2026-01-15 14:09] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-15 14:30] fix: handle API rate limits with exponential backoff retry
 - [2026-01-15 16:51] chore: configure pyproject.toml and pin dependencies
+- [2026-01-15 18:21] fix: handle token limit overflow with sliding window conversation memory
