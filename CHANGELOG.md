@@ -15,3 +15,4 @@
 - [2026-01-08 13:39] fix: handle token limit overflow with sliding window conversation memory
 - [2026-01-11 12:31] refactor: modularize persona system with JSON character schemas
 - [2026-01-11 14:09] docs: add comprehensive prompt engineering and architecture guide
+- [2026-01-16 13:46] feat: implement butterfly-effect causality graph visualizer
