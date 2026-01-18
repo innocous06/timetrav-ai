@@ -185,3 +185,4 @@
 - [2026-01-15 18:21] fix: handle token limit overflow with sliding window conversation memory
 - [2026-01-15 19:04] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-01-15 19:06] test: add integration test suite for era transitions
+- [2026-01-18 08:25] feat: add interactive CLI mode with rich formatted dialogue panels
