@@ -187,3 +187,4 @@
 - [2026-01-15 19:06] test: add integration test suite for era transitions
 - [2026-01-18 08:25] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-18 09:33] feat: add interactive CLI mode with rich formatted dialogue panels
+- [2026-01-18 15:23] chore: configure pyproject.toml and pin dependencies
