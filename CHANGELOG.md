@@ -189,3 +189,4 @@
 - [2026-01-18 09:33] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-18 15:23] chore: configure pyproject.toml and pin dependencies
 - [2026-01-18 15:58] feat: implement butterfly-effect causality graph visualizer
+- [2026-01-18 16:52] docs: add comprehensive prompt engineering and architecture guide
