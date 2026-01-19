@@ -199,3 +199,4 @@
 - [2026-01-19 18:51] feat: implement temporal context prompt builder for historical eras
 - [2026-01-19 18:55] test: add integration test suite for era transitions
 - [2026-01-19 21:17] feat: add LLM response streaming handler with async generator
+- [2026-01-19 21:52] feat: add timeline divergence scoring algorithm based on user decisions
