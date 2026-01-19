@@ -195,3 +195,4 @@
 - [2026-01-19 13:28] refactor: clean up prompt template interpolation logic
 - [2026-01-19 13:54] feat: implement temporal context prompt builder for historical eras
 - [2026-01-19 17:43] fix: handle API rate limits with exponential backoff retry
+- [2026-01-19 18:08] fix: handle token limit overflow with sliding window conversation memory
