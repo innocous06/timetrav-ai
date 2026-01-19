@@ -193,3 +193,4 @@
 - [2026-01-19 09:30] feat: add LLM response streaming handler with async generator
 - [2026-01-19 10:17] chore: configure pyproject.toml and pin dependencies
 - [2026-01-19 13:28] refactor: clean up prompt template interpolation logic
+- [2026-01-19 13:54] feat: implement temporal context prompt builder for historical eras
