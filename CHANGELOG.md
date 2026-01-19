@@ -19,3 +19,4 @@
 - [2026-01-11 20:45] feat: add export conversation transcript to Markdown and PDF
 - [2026-01-14 14:15] perf: asynchronous concurrent fetching for Wikipedia references
 - [2026-01-16 19:37] refactor: extract color themes and CSS styles into styles.py
+- [2026-01-19 11:03] fix: resolve session state reset bug when switching historical eras
