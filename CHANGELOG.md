@@ -198,3 +198,4 @@
 - [2026-01-19 18:08] fix: handle token limit overflow with sliding window conversation memory
 - [2026-01-19 18:51] feat: implement temporal context prompt builder for historical eras
 - [2026-01-19 18:55] test: add integration test suite for era transitions
+- [2026-01-19 21:17] feat: add LLM response streaming handler with async generator
