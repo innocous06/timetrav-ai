@@ -190,3 +190,4 @@
 - [2026-01-18 15:23] chore: configure pyproject.toml and pin dependencies
 - [2026-01-18 15:58] feat: implement butterfly-effect causality graph visualizer
 - [2026-01-18 16:52] docs: add comprehensive prompt engineering and architecture guide
+- [2026-01-19 09:30] feat: add LLM response streaming handler with async generator
