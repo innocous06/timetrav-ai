@@ -200,3 +200,4 @@
 - [2026-01-19 18:55] test: add integration test suite for era transitions
 - [2026-01-19 21:17] feat: add LLM response streaming handler with async generator
 - [2026-01-19 21:52] feat: add timeline divergence scoring algorithm based on user decisions
+- [2026-01-20 10:03] feat: add timeline divergence scoring algorithm based on user decisions
