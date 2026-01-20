@@ -202,3 +202,4 @@
 - [2026-01-19 21:52] feat: add timeline divergence scoring algorithm based on user decisions
 - [2026-01-20 10:03] feat: add timeline divergence scoring algorithm based on user decisions
 - [2026-01-20 13:26] feat: implement temporal context prompt builder for historical eras
+- [2026-01-20 16:48] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
