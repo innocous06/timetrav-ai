@@ -16,3 +16,4 @@
 - [2026-01-11 12:31] refactor: modularize persona system with JSON character schemas
 - [2026-01-11 14:09] docs: add comprehensive prompt engineering and architecture guide
 - [2026-01-16 13:46] feat: implement butterfly-effect causality graph visualizer
+- [2026-01-20 18:44] feat: add LLM response streaming handler with async generator
