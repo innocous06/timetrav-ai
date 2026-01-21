@@ -204,3 +204,4 @@
 - [2026-01-20 13:26] feat: implement temporal context prompt builder for historical eras
 - [2026-01-20 16:48] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-01-20 19:49] test: add integration test suite for era transitions
+- [2026-01-21 09:07] feat: add interactive CLI mode with rich formatted dialogue panels
