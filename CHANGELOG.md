@@ -226,3 +226,4 @@
 - [2026-01-22 17:36] feat: add timeline divergence scoring algorithm based on user decisions
 - [2026-01-22 17:54] test: add mock tests for historical event causality validator
 - [2026-01-22 18:17] test: add mock tests for historical event causality validator
+- [2026-01-22 19:25] refactor: modularize persona system with JSON character schemas
