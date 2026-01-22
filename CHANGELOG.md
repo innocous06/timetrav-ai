@@ -218,3 +218,4 @@
 - [2026-01-22 12:05] fix: handle API rate limits with exponential backoff retry
 - [2026-01-22 12:45] test: add mock tests for historical event causality validator
 - [2026-01-22 13:01] perf: cache embedding lookups using in-memory vector similarity index
+- [2026-01-22 14:33] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
