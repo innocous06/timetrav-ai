@@ -222,3 +222,4 @@
 - [2026-01-22 15:41] test: add integration test suite for era transitions
 - [2026-01-22 16:34] fix: handle API rate limits with exponential backoff retry
 - [2026-01-22 17:01] perf: cache embedding lookups using in-memory vector similarity index
+- [2026-01-22 17:18] fix: correct year parsing regex for BCE and CE temporal formats
