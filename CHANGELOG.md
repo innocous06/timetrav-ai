@@ -228,3 +228,4 @@
 - [2026-01-22 18:17] test: add mock tests for historical event causality validator
 - [2026-01-22 19:25] refactor: modularize persona system with JSON character schemas
 - [2026-01-22 19:39] refactor: clean up prompt template interpolation logic
+- [2026-01-22 19:58] feat: implement butterfly-effect causality graph visualizer
