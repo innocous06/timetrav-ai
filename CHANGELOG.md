@@ -224,3 +224,4 @@
 - [2026-01-22 17:01] perf: cache embedding lookups using in-memory vector similarity index
 - [2026-01-22 17:18] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-01-22 17:36] feat: add timeline divergence scoring algorithm based on user decisions
+- [2026-01-22 17:54] test: add mock tests for historical event causality validator
