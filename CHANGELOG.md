@@ -229,3 +229,4 @@
 - [2026-01-22 19:25] refactor: modularize persona system with JSON character schemas
 - [2026-01-22 19:39] refactor: clean up prompt template interpolation logic
 - [2026-01-22 19:58] feat: implement butterfly-effect causality graph visualizer
+- [2026-01-22 21:51] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
