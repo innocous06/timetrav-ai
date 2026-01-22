@@ -212,3 +212,4 @@
 - [2026-01-21 18:33] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-21 19:19] perf: cache embedding lookups using in-memory vector similarity index
 - [2026-01-21 21:16] chore: configure pyproject.toml and pin dependencies
+- [2026-01-22 09:10] test: add mock tests for historical event causality validator
