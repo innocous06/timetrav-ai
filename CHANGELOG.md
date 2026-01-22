@@ -214,3 +214,4 @@
 - [2026-01-21 21:16] chore: configure pyproject.toml and pin dependencies
 - [2026-01-22 09:10] test: add mock tests for historical event causality validator
 - [2026-01-22 09:55] refactor: modularize persona system with JSON character schemas
+- [2026-01-22 11:37] feat: implement temporal context prompt builder for historical eras
