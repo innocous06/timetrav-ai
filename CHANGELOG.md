@@ -230,3 +230,4 @@
 - [2026-01-22 19:39] refactor: clean up prompt template interpolation logic
 - [2026-01-22 19:58] feat: implement butterfly-effect causality graph visualizer
 - [2026-01-22 21:51] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
+- [2026-01-23 15:17] docs: add comprehensive prompt engineering and architecture guide
