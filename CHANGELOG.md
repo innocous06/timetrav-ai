@@ -231,3 +231,4 @@
 - [2026-01-22 19:58] feat: implement butterfly-effect causality graph visualizer
 - [2026-01-22 21:51] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-01-23 15:17] docs: add comprehensive prompt engineering and architecture guide
+- [2026-01-23 17:55] perf: cache embedding lookups using in-memory vector similarity index
