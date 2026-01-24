@@ -21,3 +21,4 @@
 - [2026-01-16 19:37] refactor: extract color themes and CSS styles into styles.py
 - [2026-01-19 11:03] fix: resolve session state reset bug when switching historical eras
 - [2026-01-22 11:13] feat: add butterfly effect consequence tracker across timeline nodes
+- [2026-01-24 14:29] style: enhance typewriter chat response streaming animation
