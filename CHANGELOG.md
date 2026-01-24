@@ -19,3 +19,4 @@
 - [2026-01-20 18:44] feat: add LLM response streaming handler with async generator
 - [2026-01-22 15:58] feat: implement temporal context prompt builder for historical eras
 - [2026-01-23 20:53] refactor: modularize persona system with JSON character schemas
+- [2026-01-24 13:14] perf: cache embedding lookups using in-memory vector similarity index
