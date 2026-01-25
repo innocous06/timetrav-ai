@@ -235,3 +235,4 @@
 - [2026-01-23 21:11] fix: handle token limit overflow with sliding window conversation memory
 - [2026-01-23 21:43] test: add mock tests for historical event causality validator
 - [2026-01-25 13:42] chore: configure pyproject.toml and pin dependencies
+- [2026-01-25 15:51] chore: configure pyproject.toml and pin dependencies
