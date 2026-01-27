@@ -238,3 +238,4 @@
 - [2026-01-25 15:51] chore: configure pyproject.toml and pin dependencies
 - [2026-01-25 18:51] refactor: clean up prompt template interpolation logic
 - [2026-01-27 11:07] docs: add comprehensive prompt engineering and architecture guide
+- [2026-01-27 11:26] feat: add LLM response streaming handler with async generator
