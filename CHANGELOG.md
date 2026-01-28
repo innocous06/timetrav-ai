@@ -241,3 +241,4 @@
 - [2026-01-27 11:26] feat: add LLM response streaming handler with async generator
 - [2026-01-27 13:53] refactor: clean up prompt template interpolation logic
 - [2026-01-28 10:36] fix: handle API rate limits with exponential backoff retry
+- [2026-01-28 12:26] test: add integration test suite for era transitions
