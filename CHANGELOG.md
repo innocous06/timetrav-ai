@@ -20,3 +20,4 @@
 - [2026-01-22 15:58] feat: implement temporal context prompt builder for historical eras
 - [2026-01-23 20:53] refactor: modularize persona system with JSON character schemas
 - [2026-01-24 13:14] perf: cache embedding lookups using in-memory vector similarity index
+- [2026-01-28 12:58] docs: add comprehensive prompt engineering and architecture guide
