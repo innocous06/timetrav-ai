@@ -245,3 +245,4 @@
 - [2026-01-28 16:11] refactor: modularize persona system with JSON character schemas
 - [2026-01-28 18:43] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-28 18:57] fix: correct year parsing regex for BCE and CE temporal formats
+- [2026-01-28 19:00] feat: implement temporal context prompt builder for historical eras
