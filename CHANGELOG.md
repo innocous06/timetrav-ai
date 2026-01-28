@@ -246,3 +246,4 @@
 - [2026-01-28 18:43] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-01-28 18:57] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-01-28 19:00] feat: implement temporal context prompt builder for historical eras
+- [2026-01-28 19:45] test: add mock tests for historical event causality validator
