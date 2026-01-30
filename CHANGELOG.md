@@ -249,3 +249,4 @@
 - [2026-01-28 19:45] test: add mock tests for historical event causality validator
 - [2026-01-29 11:22] fix: handle API rate limits with exponential backoff retry
 - [2026-01-30 11:46] feat: add timeline divergence scoring algorithm based on user decisions
+- [2026-01-30 14:35] docs: add comprehensive prompt engineering and architecture guide
