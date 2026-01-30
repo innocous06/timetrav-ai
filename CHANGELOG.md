@@ -248,3 +248,4 @@
 - [2026-01-28 19:00] feat: implement temporal context prompt builder for historical eras
 - [2026-01-28 19:45] test: add mock tests for historical event causality validator
 - [2026-01-29 11:22] fix: handle API rate limits with exponential backoff retry
+- [2026-01-30 11:46] feat: add timeline divergence scoring algorithm based on user decisions
