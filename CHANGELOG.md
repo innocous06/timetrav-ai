@@ -251,3 +251,4 @@
 - [2026-01-30 11:46] feat: add timeline divergence scoring algorithm based on user decisions
 - [2026-01-30 14:35] docs: add comprehensive prompt engineering and architecture guide
 - [2026-01-30 15:01] chore: configure pyproject.toml and pin dependencies
+- [2026-01-30 19:59] refactor: modularize persona system with JSON character schemas
