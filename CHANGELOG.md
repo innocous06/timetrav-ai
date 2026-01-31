@@ -253,3 +253,4 @@
 - [2026-01-30 15:01] chore: configure pyproject.toml and pin dependencies
 - [2026-01-30 19:59] refactor: modularize persona system with JSON character schemas
 - [2026-01-30 20:40] refactor: clean up prompt template interpolation logic
+- [2026-01-31 17:41] fix: handle API rate limits with exponential backoff retry
