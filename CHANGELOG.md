@@ -263,3 +263,4 @@
 - [2026-02-03 15:27] chore: configure pyproject.toml and pin dependencies
 - [2026-02-03 19:01] perf: cache embedding lookups using in-memory vector similarity index
 - [2026-02-03 19:43] refactor: modularize persona system with JSON character schemas
+- [2026-02-03 21:42] test: add integration test suite for era transitions
