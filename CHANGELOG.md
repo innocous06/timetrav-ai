@@ -262,3 +262,4 @@
 - [2026-02-03 15:05] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-02-03 15:27] chore: configure pyproject.toml and pin dependencies
 - [2026-02-03 19:01] perf: cache embedding lookups using in-memory vector similarity index
+- [2026-02-03 19:43] refactor: modularize persona system with JSON character schemas
