@@ -258,3 +258,4 @@
 - [2026-02-03 09:45] fix: handle token limit overflow with sliding window conversation memory
 - [2026-02-03 10:49] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-02-03 11:15] fix: handle token limit overflow with sliding window conversation memory
+- [2026-02-03 11:29] fix: handle token limit overflow with sliding window conversation memory
