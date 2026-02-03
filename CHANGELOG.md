@@ -260,3 +260,4 @@
 - [2026-02-03 11:15] fix: handle token limit overflow with sliding window conversation memory
 - [2026-02-03 11:29] fix: handle token limit overflow with sliding window conversation memory
 - [2026-02-03 15:05] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
+- [2026-02-03 15:27] chore: configure pyproject.toml and pin dependencies
