@@ -255,3 +255,4 @@
 - [2026-01-30 20:40] refactor: clean up prompt template interpolation logic
 - [2026-01-31 17:41] fix: handle API rate limits with exponential backoff retry
 - [2026-01-31 18:14] fix: handle API rate limits with exponential backoff retry
+- [2026-02-03 09:45] fix: handle token limit overflow with sliding window conversation memory
