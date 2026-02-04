@@ -25,3 +25,4 @@
 - [2026-01-27 12:53] test: add mock LLM response fixtures for offline integration tests
 - [2026-01-30 17:19] feat: add historical era timeline map with interactive century picker
 - [2026-02-01 13:16] perf: optimize image analyzer prompt tokens to reduce inference latency
+- [2026-02-04 20:14] docs: write comprehensive developer setup and API key guide in README
