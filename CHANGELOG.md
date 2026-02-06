@@ -265,3 +265,4 @@
 - [2026-02-03 19:43] refactor: modularize persona system with JSON character schemas
 - [2026-02-03 21:42] test: add integration test suite for era transitions
 - [2026-02-03 21:59] refactor: modularize persona system with JSON character schemas
+- [2026-02-06 11:51] fix: handle API rate limits with exponential backoff retry
