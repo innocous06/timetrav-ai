@@ -268,3 +268,4 @@
 - [2026-02-06 11:51] fix: handle API rate limits with exponential backoff retry
 - [2026-02-06 19:04] chore: configure pyproject.toml and pin dependencies
 - [2026-02-06 20:09] chore: configure pyproject.toml and pin dependencies
+- [2026-02-06 23:29] feat: add timeline divergence scoring algorithm based on user decisions
