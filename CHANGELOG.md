@@ -269,3 +269,4 @@
 - [2026-02-06 19:04] chore: configure pyproject.toml and pin dependencies
 - [2026-02-06 20:09] chore: configure pyproject.toml and pin dependencies
 - [2026-02-06 23:29] feat: add timeline divergence scoring algorithm based on user decisions
+- [2026-02-07 13:45] docs: add comprehensive prompt engineering and architecture guide
