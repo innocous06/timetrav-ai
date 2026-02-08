@@ -24,3 +24,4 @@
 - [2026-02-02 13:37] feat: implement butterfly-effect causality graph visualizer
 - [2026-02-06 12:13] docs: add comprehensive prompt engineering and architecture guide
 - [2026-02-06 15:26] feat: add timeline divergence scoring algorithm based on user decisions
+- [2026-02-08 19:27] feat: add interactive CLI mode with rich formatted dialogue panels
