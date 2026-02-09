@@ -27,3 +27,4 @@
 - [2026-02-01 13:16] perf: optimize image analyzer prompt tokens to reduce inference latency
 - [2026-02-04 20:14] docs: write comprehensive developer setup and API key guide in README
 - [2026-02-07 19:31] chore: configure .env.example with API key placeholders
+- [2026-02-09 14:26] refactor: encapsulate Wikipedia fetcher with retry exponential backoff
