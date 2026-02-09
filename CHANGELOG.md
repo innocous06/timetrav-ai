@@ -272,3 +272,4 @@
 - [2026-02-07 13:45] docs: add comprehensive prompt engineering and architecture guide
 - [2026-02-07 17:28] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-02-08 10:29] chore: configure pyproject.toml and pin dependencies
+- [2026-02-09 18:46] refactor: clean up prompt template interpolation logic
