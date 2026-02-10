@@ -283,3 +283,4 @@
 - [2026-02-10 15:33] refactor: clean up prompt template interpolation logic
 - [2026-02-10 15:35] refactor: clean up prompt template interpolation logic
 - [2026-02-10 16:58] feat: add timeline divergence scoring algorithm based on user decisions
+- [2026-02-10 17:57] feat: implement temporal context prompt builder for historical eras
