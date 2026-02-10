@@ -274,3 +274,4 @@
 - [2026-02-08 10:29] chore: configure pyproject.toml and pin dependencies
 - [2026-02-09 18:46] refactor: clean up prompt template interpolation logic
 - [2026-02-10 10:07] refactor: clean up prompt template interpolation logic
+- [2026-02-10 10:15] feat: implement temporal context prompt builder for historical eras
