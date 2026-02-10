@@ -287,3 +287,4 @@
 - [2026-02-10 18:05] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-02-10 18:46] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-02-10 20:35] feat: add LLM response streaming handler with async generator
+- [2026-02-10 21:19] refactor: clean up prompt template interpolation logic
