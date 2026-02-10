@@ -275,3 +275,4 @@
 - [2026-02-09 18:46] refactor: clean up prompt template interpolation logic
 - [2026-02-10 10:07] refactor: clean up prompt template interpolation logic
 - [2026-02-10 10:15] feat: implement temporal context prompt builder for historical eras
+- [2026-02-10 10:20] fix: correct year parsing regex for BCE and CE temporal formats
