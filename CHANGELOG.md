@@ -282,3 +282,4 @@
 - [2026-02-10 14:30] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-02-10 15:33] refactor: clean up prompt template interpolation logic
 - [2026-02-10 15:35] refactor: clean up prompt template interpolation logic
+- [2026-02-10 16:58] feat: add timeline divergence scoring algorithm based on user decisions
