@@ -278,3 +278,4 @@
 - [2026-02-10 10:20] fix: correct year parsing regex for BCE and CE temporal formats
 - [2026-02-10 10:29] feat: add LLM response streaming handler with async generator
 - [2026-02-10 11:12] fix: handle token limit overflow with sliding window conversation memory
+- [2026-02-10 12:59] test: add mock tests for historical event causality validator
