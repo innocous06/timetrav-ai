@@ -291,3 +291,4 @@
 - [2026-02-10 21:43] fix: handle API rate limits with exponential backoff retry
 - [2026-02-11 11:01] feat: implement butterfly-effect causality graph visualizer
 - [2026-02-11 12:20] fix: correct year parsing regex for BCE and CE temporal formats
+- [2026-02-11 13:06] feat: add interactive CLI mode with rich formatted dialogue panels
