@@ -28,3 +28,4 @@
 - [2026-02-04 20:14] docs: write comprehensive developer setup and API key guide in README
 - [2026-02-07 19:31] chore: configure .env.example with API key placeholders
 - [2026-02-09 14:26] refactor: encapsulate Wikipedia fetcher with retry exponential backoff
+- [2026-02-12 20:48] feat: add multi-language support for ancient historical dialogue
