@@ -294,3 +294,4 @@
 - [2026-02-11 13:06] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-02-11 14:31] docs: add comprehensive prompt engineering and architecture guide
 - [2026-02-11 16:15] fix: handle API rate limits with exponential backoff retry
+- [2026-02-12 17:07] fix: correct year parsing regex for BCE and CE temporal formats
