@@ -295,3 +295,4 @@
 - [2026-02-11 14:31] docs: add comprehensive prompt engineering and architecture guide
 - [2026-02-11 16:15] fix: handle API rate limits with exponential backoff retry
 - [2026-02-12 17:07] fix: correct year parsing regex for BCE and CE temporal formats
+- [2026-02-12 17:18] refactor: modularize persona system with JSON character schemas
