@@ -308,3 +308,4 @@
 - [2026-02-13 18:51] feat: implement temporal context prompt builder for historical eras
 - [2026-02-13 19:07] docs: add comprehensive prompt engineering and architecture guide
 - [2026-02-13 20:34] feat: add timeline divergence scoring algorithm based on user decisions
+- [2026-02-13 23:12] chore: configure pyproject.toml and pin dependencies
