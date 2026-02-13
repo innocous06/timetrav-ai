@@ -306,3 +306,4 @@
 - [2026-02-13 17:58] chore: configure pyproject.toml and pin dependencies
 - [2026-02-13 18:28] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-02-13 18:51] feat: implement temporal context prompt builder for historical eras
+- [2026-02-13 19:07] docs: add comprehensive prompt engineering and architecture guide
