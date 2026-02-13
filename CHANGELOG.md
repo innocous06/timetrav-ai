@@ -303,3 +303,4 @@
 - [2026-02-13 11:33] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-02-13 12:42] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-02-13 16:59] fix: handle API rate limits with exponential backoff retry
+- [2026-02-13 17:58] chore: configure pyproject.toml and pin dependencies
