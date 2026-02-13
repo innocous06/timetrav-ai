@@ -298,3 +298,4 @@
 - [2026-02-12 17:18] refactor: modularize persona system with JSON character schemas
 - [2026-02-12 20:56] docs: add comprehensive prompt engineering and architecture guide
 - [2026-02-13 09:50] refactor: clean up prompt template interpolation logic
+- [2026-02-13 10:46] refactor: clean up prompt template interpolation logic
