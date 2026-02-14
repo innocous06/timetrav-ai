@@ -312,3 +312,4 @@
 - [2026-02-14 08:25] feat: implement butterfly-effect causality graph visualizer
 - [2026-02-14 10:32] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-02-14 11:07] feat: add LLM response streaming handler with async generator
+- [2026-02-14 12:21] fix: correct year parsing regex for BCE and CE temporal formats
