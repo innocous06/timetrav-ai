@@ -27,3 +27,4 @@
 - [2026-02-08 19:27] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-02-11 11:11] feat: implement temporal context prompt builder for historical eras
 - [2026-02-11 20:40] docs: add comprehensive prompt engineering and architecture guide
+- [2026-02-14 14:22] docs: add comprehensive prompt engineering and architecture guide
