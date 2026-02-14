@@ -310,3 +310,4 @@
 - [2026-02-13 20:34] feat: add timeline divergence scoring algorithm based on user decisions
 - [2026-02-13 23:12] chore: configure pyproject.toml and pin dependencies
 - [2026-02-14 08:25] feat: implement butterfly-effect causality graph visualizer
+- [2026-02-14 10:32] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
