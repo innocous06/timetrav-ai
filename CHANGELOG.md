@@ -29,3 +29,4 @@
 - [2026-02-07 19:31] chore: configure .env.example with API key placeholders
 - [2026-02-09 14:26] refactor: encapsulate Wikipedia fetcher with retry exponential backoff
 - [2026-02-12 20:48] feat: add multi-language support for ancient historical dialogue
+- [2026-02-15 15:58] fix: handle stream disconnect gracefully with toast notification
