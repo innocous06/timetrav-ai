@@ -28,3 +28,4 @@
 - [2026-02-11 11:11] feat: implement temporal context prompt builder for historical eras
 - [2026-02-11 20:40] docs: add comprehensive prompt engineering and architecture guide
 - [2026-02-14 14:22] docs: add comprehensive prompt engineering and architecture guide
+- [2026-02-16 15:26] refactor: modularize persona system with JSON character schemas
