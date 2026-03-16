@@ -316,3 +316,4 @@
 - [2026-02-14 16:08] refactor: clean up prompt template interpolation logic
 - [2026-03-04 11:40] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-03-04 19:01] feat: add interactive CLI mode with rich formatted dialogue panels
+- [2026-03-16 14:52] fix: handle token limit overflow with sliding window conversation memory
