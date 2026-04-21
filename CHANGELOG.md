@@ -319,3 +319,4 @@
 - [2026-03-16 14:52] fix: handle token limit overflow with sliding window conversation memory
 - [2026-03-26 16:22] feat: implement temporal context prompt builder for historical eras
 - [2026-04-06 16:49] docs: add comprehensive prompt engineering and architecture guide
+- [2026-04-21 14:53] fix: correct year parsing regex for BCE and CE temporal formats
