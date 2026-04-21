@@ -30,3 +30,4 @@
 - [2026-02-14 14:22] docs: add comprehensive prompt engineering and architecture guide
 - [2026-02-16 15:26] refactor: modularize persona system with JSON character schemas
 - [2026-03-15 17:32] feat: add interactive CLI mode with rich formatted dialogue panels
+- [2026-04-21 17:07] test: add mock tests for historical event causality validator
