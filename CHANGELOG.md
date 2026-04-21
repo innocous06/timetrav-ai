@@ -320,3 +320,4 @@
 - [2026-03-26 16:22] feat: implement temporal context prompt builder for historical eras
 - [2026-04-06 16:49] docs: add comprehensive prompt engineering and architecture guide
 - [2026-04-21 14:53] fix: correct year parsing regex for BCE and CE temporal formats
+- [2026-04-21 16:20] test: add integration test suite for era transitions
