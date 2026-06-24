@@ -327,3 +327,4 @@
 - [2026-06-02 16:43] feat: add LLM response streaming handler with async generator
 - [2026-06-12 19:27] docs: write examples for ancient Rome, Renaissance, and Cyberpunk eras
 - [2026-06-24 11:16] feat: add interactive CLI mode with rich formatted dialogue panels
+- [2026-06-24 14:13] fix: handle token limit overflow with sliding window conversation memory
