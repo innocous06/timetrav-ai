@@ -33,3 +33,4 @@
 - [2026-04-21 17:07] test: add mock tests for historical event causality validator
 - [2026-05-17 18:31] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-06-13 16:56] feat: implement butterfly-effect causality graph visualizer
+- [2026-07-13 15:39] test: add mock tests for historical event causality validator
