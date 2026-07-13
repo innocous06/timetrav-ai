@@ -330,3 +330,4 @@
 - [2026-06-24 14:13] fix: handle token limit overflow with sliding window conversation memory
 - [2026-07-13 13:01] feat: add interactive CLI mode with rich formatted dialogue panels
 - [2026-07-13 18:33] feat: add LLM response streaming handler with async generator
+- [2026-07-13 19:03] test: add mock tests for historical event causality validator
