@@ -333,3 +333,4 @@
 - [2026-07-13 19:03] test: add mock tests for historical event causality validator
 - [2026-07-31 11:30] perf: cache embedding lookups using in-memory vector similarity index
 - [2026-07-31 16:20] perf: cache embedding lookups using in-memory vector similarity index
+- [2026-07-31 19:35] feat: add timeline divergence scoring algorithm based on user decisions
