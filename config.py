@@ -30,3 +30,7 @@ FALLBACK_PERSONA = {
     "personality": "Scholarly, wise, patient, and deeply passionate about history.",
     "speaking_style": "Eloquent, educational, and engaging with vivid descriptions."
 }
+
+# API Network Timeout Settings
+API_TIMEOUT_SECONDS = 15
+MAX_RETRY_ATTEMPTS = 3
