@@ -333,3 +333,6 @@ def get_custom_css():
     }
     </style>
     """
+
+/* Image Preview Transitions */
+.stImage img { border-radius: 8px; transition: transform 0.2s ease; }
