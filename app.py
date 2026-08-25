@@ -4,7 +4,7 @@ Where History Speaks Through Those Who Made It
 """
 import streamlit as st
 import streamlit.components.v1 as components
-from PIL import Image
+from PIL import Image, ImageOps
 import config
 from styles import get_custom_css
 from utils import (
@@ -248,7 +248,7 @@ def main():
                 
                 if uploaded_file:
                     # Display uploaded image
-                    image = Image.open(uploaded_file)
+                    image = ImageOps.exif_transpose(Image.open(uploaded_file))
                     st.image(image, caption="Uploaded Monument", use_container_width=True)
                     
                     # Analyze button
