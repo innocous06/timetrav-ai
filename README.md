@@ -41,6 +41,12 @@ cp .env.example .env
 streamlit run app.py
 ```
 
+## Persona Synthesis Pipeline
+
+1. **Vision Inference:** Google Gemini multimodal vision model processes landmark imagery to extract architectonic style, historical epoch, and geographic location.
+2. **Knowledge Retrieval:** Wikipedia API fetches verified historical chronology and figures associated with the monument.
+3. **Dialogue Calibration:** Dynamic system prompts instantiate conversational historical personas with authentic vocabulary and perspective.
+
 ## License
 
 Released under the [MIT License](LICENSE).
