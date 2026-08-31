@@ -47,6 +47,11 @@ streamlit run app.py
 2. **Knowledge Retrieval:** Wikipedia API fetches verified historical chronology and figures associated with the monument.
 3. **Dialogue Calibration:** Dynamic system prompts instantiate conversational historical personas with authentic vocabulary and perspective.
 
+## Troubleshooting
+
+- **Quota Exceeded (HTTP 429):** Ensure your `GEMINI_API_KEY` has quota enabled in Google AI Studio.
+- **Wikipedia Retrieval:** If landmark name has multiple historical disambiguations, the top article summary is prioritized.
+
 ## License
 
 Released under the [MIT License](LICENSE).
